@@ -1,0 +1,3 @@
+Jean;Dupont;26
+Julie;Durant;29
+Georges;B;35
