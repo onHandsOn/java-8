@@ -1,16 +1,13 @@
 package com.carbonit.java8.files;
 
 import com.carbonit.java8.model.Person;
-import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
 import java.net.URI;
-import java.net.URL;
 import java.util.List;
 
-import static com.carbonit.java8.model.PersonBuilder.aPersonBuilder;
-import static org.assertj.core.api.Assertions.*;
-import static org.junit.Assert.*;
+import static com.carbonit.java8.TestUtils.generateAPerson;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class FilesOperationsTest {
 

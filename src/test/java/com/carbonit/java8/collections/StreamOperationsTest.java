@@ -1,5 +1,6 @@
 package com.carbonit.java8.collections;
 
+import com.carbonit.java8.TestUtils;
 import com.carbonit.java8.model.Person;
 import com.carbonit.java8.model.Student;
 import org.junit.Test;
@@ -8,6 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import static com.carbonit.java8.TestUtils.*;
 import static com.carbonit.java8.collections.StreamOperations.*;
 import static com.carbonit.java8.model.PersonBuilder.aPersonBuilder;
 import static com.carbonit.java8.model.StudentBuilder.aStudentBuilder;

@@ -8,8 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static com.carbonit.java8.TestUtils.generateAPerson;
 import static com.carbonit.java8.collections.CollectionsOperations.*;
-import static com.carbonit.java8.model.PersonBuilder.aPersonBuilder;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class CollectionsOperationsTest {
