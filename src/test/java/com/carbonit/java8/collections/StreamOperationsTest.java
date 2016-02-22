@@ -1,6 +1,7 @@
 package com.carbonit.java8.collections;
 
 import com.carbonit.java8.TestUtils;
+import com.carbonit.java8.exception.NoStudentFoundException;
 import com.carbonit.java8.model.Person;
 import com.carbonit.java8.model.Student;
 import org.junit.Test;
@@ -136,7 +137,7 @@ public class StreamOperationsTest {
         assertThat(student.firstName).isEqualTo("Michel");
     }
 
-    @Test(expected = Exception.class)
+    @Test(expected = NoStudentFoundException.class)
     public void should_not_find_a_student() throws Exception {
         // Given
         Person person1 = generateAPerson("Dupont", "John", 3);
