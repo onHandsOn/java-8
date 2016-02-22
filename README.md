@@ -6,6 +6,7 @@ Short exercises permitting to learn about java 8.
   - funct_interface
   - collection
   - stream
+  - date
 
 Another branch named "solution" exists and contains solutions of these exercises.
 
