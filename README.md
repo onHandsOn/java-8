@@ -3,7 +3,7 @@
 Short exercises permitting to learn about java 8.  
 Github link : https://github.com/onHandsOn/java-8.git  
 
-3 branches exist :  
+4 branches exist :  
   - funct_interface
   - collection
   - stream
