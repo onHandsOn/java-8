@@ -1,5 +1,6 @@
 package com.carbonit.java8.collections;
 
+import com.carbonit.java8.exception.NoStudentFoundException;
 import com.carbonit.java8.model.Person;
 import com.carbonit.java8.model.Student;
 
@@ -95,7 +96,7 @@ public class StreamOperations {
                 return new Student(person);
             }
         }
-        throw new Exception();
+        throw new NoStudentFoundException();
     }
 
     public static Double getAverageAge(List<Person> people){
