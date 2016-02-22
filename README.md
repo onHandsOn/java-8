@@ -1,18 +1,18 @@
 # README #
 
-Short exercises permitting to learn about java 8.  
-Github link : https://github.com/onHandsOn/java-8.git  
+Short exercises permitting to learn about java 8.
 
-3 branches exist :  
+4 branches exist :
   - funct_interface
   - collection
   - stream
+  - date
 
 Another branch named "solution" exists and contains solutions of these exercises.
 
-Useful links :  
+Useful links :
 
- - https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html  
- - https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html  
- - https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html   
- - https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html  
+ - https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+ - https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
+ - https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html
+ - https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
