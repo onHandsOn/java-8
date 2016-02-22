@@ -7,6 +7,7 @@ Github link : https://github.com/onHandsOn/java-8.git
   - funct_interface
   - collection
   - stream
+  - date
 
 Another branch named "solution" exists and contains solutions of these exercises.
 
