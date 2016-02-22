@@ -2,7 +2,7 @@
 
 Short exercises permitting to learn about java 8.
 
-3 branches exist :
+4 branches exist :
   - funct_interface
   - collection
   - stream
