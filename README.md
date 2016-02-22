@@ -2,10 +2,11 @@
 
 Short exercises permitting to learn about java 8.
 
-3 branches exist :
+4 branches exist :
   - funct_interface
   - collection
   - stream
+  - date
 
 Another branch named "solution" exists and contains solutions of these exercises.
 
