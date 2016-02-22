@@ -6,11 +6,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
-import static com.carbonit.java8.date.DateUtils.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class DateUtilsTest {
@@ -18,12 +15,12 @@ public class DateUtilsTest {
 
     @Test
     public void should_parse_date() {
-        assertThat(parseDate("27/01/2014")).isInSameDayAs("2014-01-27");
+        assertThat(DateUtils.parseDate("27/01/2014")).isInSameDayAs("2014-01-27");
     }
 
     @Test
     public void should_parse_date_time() {
-        assertThat(parseDateTime("27/01/2014 12:05:10")).
+        assertThat(DateUtils.parseDateTime("27/01/2014 12:05:10")).
                 isInSameDayAs("2014-01-27").
                 isWithinHourOfDay(12).
                 isWithinHourOfDay(12).
